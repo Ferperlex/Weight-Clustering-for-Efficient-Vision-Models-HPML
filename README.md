@@ -3,16 +3,16 @@
 ## Description
 This project explores model compression techniques for a ResNet18 model trained on the CIFAR-10 dataset. The primary focus is on weight clustering methods to reduce the model size while attempting to maintain accuracy.
 
+## Testing Environment
+- **Python version**: 3.12.12
+- **GPU type**: NVIDIA A100-SXM4-40GB
+
 ## Setup
 To set up the environment, install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
-
-## Testing Environment
-- **Python version**: 3.12.12
-- **GPU type**: NVIDIA A100-SXM4-40GB
 
 ## Methods
 The following clustering algorithms were applied to the convolutional layer weights:

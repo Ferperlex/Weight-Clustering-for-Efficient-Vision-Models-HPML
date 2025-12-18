@@ -10,6 +10,10 @@ To set up the environment, install the required dependencies:
 pip install -r requirements.txt
 ```
 
+## Testing Environment
+- **Python version**: 3.12.12
+- **GPU Type**: NVIDIA A100-SXM4-40GB
+
 ## Methods
 The following clustering algorithms were applied to the convolutional layer weights:
 - **K-Means Clustering**: Tested with k=16, 32, 128.

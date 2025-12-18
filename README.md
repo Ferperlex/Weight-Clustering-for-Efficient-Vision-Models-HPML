@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 ## Testing Environment
 - **Python version**: 3.12.12
-- **GPU Type**: NVIDIA A100-SXM4-40GB
+- **GPU type**: NVIDIA A100-SXM4-40GB
 
 ## Methods
 The following clustering algorithms were applied to the convolutional layer weights:

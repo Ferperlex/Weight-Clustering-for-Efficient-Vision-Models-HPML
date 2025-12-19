@@ -1,7 +1,8 @@
 # Weight-Clustering-for-Efficient-Vision-Models-HPML
 
 ## Description
-This project explores model compression techniques for a ResNet18 model trained on the CIFAR-10 dataset. The primary focus is on weight clustering methods to reduce the model size while attempting to maintain accuracy.
+This project studies post-training weight clustering as a model compression technique for a ResNet-18 trained on CIFAR-10. We cluster convolutional-layer weights (K-Means, GMM, DBSCAN) to reduce checkpoint size while tracking the impact on test accuracy.
+
 
 ## Testing Environment
 - **Python version**: 3.12.12
@@ -19,6 +20,9 @@ The following clustering algorithms were applied to the convolutional layer weig
 - **K-Means Clustering**: Tested with k=16, 32, 128.
 - **Gaussian Mixture Models (GMM)**: Tested with 16 and 32 components.
 - **DBSCAN**: Tested with epsilon values of 0.1 and 0.2.
+
+## Tracking
+- Weights & Biases: https://wandb.ai/superbunny38/resnet-compression
 
 ## Results Summary
 - **Baseline**: The uncompressed ResNet18 model achieved ~88.14% accuracy.

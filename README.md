@@ -112,4 +112,4 @@ python scripts/plot_tradeoff.py --csv outputs/results/results.csv --out-dir outp
 - `run_sweep.py` reproduce the full sweep and summary plot
 - `scripts/plot_tradeoff.py` plotting utility
 
-Contact: fm2758@columbia.edu
+Contact: cr3413@columbia.edu, fm2758@columbia.edu, or jp4611@columbia.edu
